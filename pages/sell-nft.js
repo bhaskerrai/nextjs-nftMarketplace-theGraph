@@ -144,9 +144,9 @@ export default function Home() {
             key: "price",
           },
         ]}
-        title="Sell Your NFT"
+        title={<div className="mx-[13%] font-bold lg:text-[35px] md:text-[50px] sm:text-[60px] text-[35px] mb-[46px] uppercase text-black">Sell Your NFT !</div>}
         id="Main Form"
-        buttonConfig={{theme: "primary"}}
+        buttonConfig={{theme:"primary"}}
       />
       </div>
 
