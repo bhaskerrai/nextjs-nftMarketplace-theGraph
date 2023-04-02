@@ -116,7 +116,7 @@ export default function Home() {
   return (
     <div >
 
-      <div className="py-4 px-4">
+      <div className="w-[1400px] mx-[25%] my-16">
       <Form
         onSubmit={approveAndList}
         data={[
@@ -154,7 +154,7 @@ export default function Home() {
 
       {proceeds != "0" ? (
 
-        <div className="py-2 flex justify-center h-14 w-auto">
+        <div className="py-2 flex justify-center h-14 w-auto ">
 
         <Button
           onClick={() => {
